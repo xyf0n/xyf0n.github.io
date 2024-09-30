@@ -7,14 +7,14 @@
        <script> 
         function checkInput() { 
             const inputField = document.getElementById('userInput'); 
-            const correctWord = 'NVK'; // Set the correct word here 
+            const Word = 'NVK';
             const userInput = inputField.value; 
  
             if (userInput === correctWord) { 
                 // Redirect to the desired URL 
                 window.location.href = 's2.html'; // Change to your target URL 
             } else { 
-                alert('idiot'); 
+                alert('idiot');  // Set the correct word here 
             } 
         } 
    </script>
@@ -23,7 +23,7 @@
   <font color="white">
     <h1>...</h1>
    <p align = "center">
-    <input type="text" id="userInput" placeholder="mercy">
+    <input type="text" id="userInput" placeholder="red">
     <button onclick="checkInput()">answer</button>
    </p>
   </font>
